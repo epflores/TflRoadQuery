@@ -17,13 +17,14 @@ All files listed are available to download via Dropbox:
 # Github
 
 All files listed are available to view via GitHub: 
+
 |       File         |Comment                          |Download                         |
 |----------------|-------------------------------|-----------------------------|
 |TflRoadQuery.java|Main Class            |[https://github.com/epflores/TflRoadQuery/blob/master/TflRoadQuery.java](https://github.com/epflores/TflRoadQuery/blob/master/TflRoadQuery.java)            |
 |TflRoadQueryTest.java          |JUnit Test Class            |[https://github.com/epflores/TflRoadQuery/blob/master/TflRoadQueryTest.java](https://github.com/epflores/TflRoadQuery/blob/master/TflRoadQueryTest.java)            |
 |config.properties          |Configuration Properties|[https://github.com/epflores/TflRoadQuery/blob/master/config.properties](https://github.com/epflores/TflRoadQuery/blob/master/config.properties)|
 |TflProperties.java | config properties Generator Class | [https://github.com/epflores/TflRoadQuery/blob/master/TflProperties.java](https://github.com/epflores/TflRoadQuery/blob/master/TflProperties.java)
-|AbstractMainTests.java | JUnit Helper Class | [https://github.com/epflores/TflRoadQuery/blob/master/AbstractMainTests.java](https://github.com/epflores/TflRoadQuery/blob/master/AbstractMainTests.java)
+|AbstractMainTests.java | JUnit Helper Class | [https://github.com/epflores/TflRoadQuery/blob/master/AbstractMainTests.java](https://github.com/epflores/TflRoadQuery/blob/master/AbstractMainTests.java) |
 
 
 
