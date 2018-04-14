@@ -46,13 +46,17 @@ All files listed are available to view via GitHub:
 > C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A2
 
 A2
+
 Road Status: Closure
+
 Road Status Description: Closure
 
 > C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A1
 
 A1
+
 Road Status: Good
+
 Road Status Description: No Exceptional Delays
 
 > C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A233
