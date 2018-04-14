@@ -3,6 +3,7 @@ Find up-to-date information on UK roads
 
 This Java application accesses data provided by TfL  open data REST API at [https://api.tfl.gov.uk](https://api.tfl.gov.uk) to query data on the status of UK roads.
 
+
 # Dropbox
 
 All files listed are available to download via Dropbox:
@@ -17,7 +18,6 @@ All files listed are available to download via Dropbox:
 # Github
 
 All files listed are available to view via GitHub: 
-
 |       File         |Comment                          |Download                         |
 |----------------|-------------------------------|-----------------------------|
 |TflRoadQuery.java|Main Class            |[https://github.com/epflores/TflRoadQuery/blob/master/TflRoadQuery.java](https://github.com/epflores/TflRoadQuery/blob/master/TflRoadQuery.java)            |
@@ -25,7 +25,42 @@ All files listed are available to view via GitHub:
 |config.properties          |Configuration Properties|[https://github.com/epflores/TflRoadQuery/blob/master/config.properties](https://github.com/epflores/TflRoadQuery/blob/master/config.properties)|
 |TflProperties.java | config properties Generator Class | [https://github.com/epflores/TflRoadQuery/blob/master/TflProperties.java](https://github.com/epflores/TflRoadQuery/blob/master/TflProperties.java)
 |AbstractMainTests.java | JUnit Helper Class | [https://github.com/epflores/TflRoadQuery/blob/master/AbstractMainTests.java](https://github.com/epflores/TflRoadQuery/blob/master/AbstractMainTests.java) |
-|README.md | Markdown File | [https://github.com/epflores/TflRoadQuery/edit/master/README.md](https://github.com/epflores/TflRoadQuery/edit/master/README.md) |
+
+
+# Run
+
+1. Executable Jar
+
+> java -jar TflRoadQuery.jar A2
+
+
+2. TflRoadQuery.java run as Java Application
+
+> select TflRoadQuery.java from workspace, 
+> <right-click> select Run As -> Java Application 
+
+# Output
+
+
+> C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A2
+
+A2
+Road Status: Closure
+Road Status Description: Closure
+
+> C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A1
+
+A1
+Road Status: Good
+Road Status Description: No Exceptional Delays
+
+> C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A233
+
+The following road id is not recognised: A233
+
+> C:\Users\epflores\TflRoadQuery>java -jar TflRoadQuery.jar A12345
+
+The following road id is not valid: A12345
 
 
 
@@ -49,13 +84,14 @@ All files listed are available to view via GitHub:
 
 
 
-# Test
+# JUnit Test
 
-Executable Jar
 
-OR
+1. TflRoadQueryTest.java run as JUnit Test
 
-TflRoadQuery.java run as Java Application
+> select TflRoadQueryTest.java from workspace, 
+> <right-click> select Run As -> JUnit Test 
+
 
 # Author
 Eugene Paul Flores
