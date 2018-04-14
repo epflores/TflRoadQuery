@@ -79,8 +79,8 @@ The following road id is not valid: A12345
 |description          |Default application created on signup.            |TFL Registration Description            |
 |app_id | a055b383 | Unique application ID assigned by TFL
 |app_key | 4cabc676bd56dd4e9025f94aca65c351 | Unique application key assigned by TFL
-|a_road_regex | ^([aA0-9_-]){2,5}$ | A Road Naming Validation Regular Expression)
-|b_road_regex | ^([bB0-9_-]){4,5}$ | B Road Naming Validation Regular Expression)
+|a_road_regex | ^([aA0-9_-]){2,5}$ | A Road Naming Validation Regular Expression
+|b_road_regex | ^([bB0-9_-]){4,5}$ | B Road Naming Validation Regular Expression
 
 
 
